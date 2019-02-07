@@ -1,0 +1,25 @@
+@import "../../scss/_var.scss";
+@import "../../scss/_mixins";
+
+.slider--cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $full;
+
+  li {
+    display: none;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+  }
+
+  li.active {
+    display: block;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+}

@@ -1,0 +1,10 @@
+@import "../../scss/_var.scss";
+@import "../../scss/_mixins";
+
+body {
+  font-family: 'Nunito Sans', 'Roboto', sans-serif;
+  height: $full;
+  width: $full;
+  line-height: 1.5;
+  @include no-margin;
+}

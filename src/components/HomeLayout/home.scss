@@ -1,0 +1,29 @@
+@import "../../scss/_var.scss";
+@import "../../scss/_mixins";
+
+.hero--image {
+  position: relative;
+  background: url('../../assets/food-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  border-bottom: 6px solid $blue;
+
+  .hero--cover {
+    background: #3359df73;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  h2 {
+    color: $light;
+    @include no-margin;
+  }
+
+  p {
+    color: $light;
+  }
+}
