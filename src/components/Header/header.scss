@@ -1,0 +1,9 @@
+@import "../../scss/_var.scss";
+
+header {
+  position: relative;
+  width: $full-width;
+  padding: 10px 0px 10px;
+  background: $blue;
+  z-index: 10;
+}
