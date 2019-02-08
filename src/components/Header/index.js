@@ -4,7 +4,7 @@ import './header.scss';
 
 export default function Header() {
   return (
-    <header>
+    <header className="app--header">
       <nav>
       <Link to='/'><h1>Book A Meal</h1></Link>
         <ul>

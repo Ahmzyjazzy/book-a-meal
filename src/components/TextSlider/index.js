@@ -40,7 +40,6 @@ class ImageSlider extends Component {
 
   render() {
     const { data } = this.props;
-    console.log(data);
 
     return (
       <ul className="slider--cont">
