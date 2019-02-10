@@ -18,19 +18,21 @@ nav {
   padding: 10px 0px 10px;
   
   a {
-    text-decoration: none;
     color: $light;
   }
 
   ul {
-    list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
   }
   
   li {
     align-self: center;
+  }
+
+  i {
+    font-size: 24px;
   }
 
 }

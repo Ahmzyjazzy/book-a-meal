@@ -24,6 +24,11 @@ class App extends Component {
             <Route exact path='/login' component={LoginLayout} />
           </Switch>
         </main>
+        <footer>
+          <p>Developed by Ahmzyjazzy</p>
+          <p>&copy; { new Date().getFullYear() } All rights reserved.</p>
+          <p>Made for ALCwithForloop</p>
+        </footer>
       </Fragment>
     );
   }

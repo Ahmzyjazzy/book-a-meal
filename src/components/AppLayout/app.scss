@@ -7,4 +7,29 @@ body {
   width: $full;
   line-height: 1.5;
   @include no-margin;
+  background: #eee;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  width: $full;
+  margin-top: 2rem;
+  background: $dark;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+
+  p {
+    align-self: center;
+    justify-self: center;
+    color: $light;
+  }
+
 }
